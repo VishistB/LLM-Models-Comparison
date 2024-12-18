@@ -51,6 +51,8 @@ function App() {
       gemini: "http://localhost:8000/gemini/",
       mistral: "http://localhost:8000/mistral/",
       llama: "http://localhost:8000/llama/",
+      gptNeox: "http://localhost:8000/gpt-neox/",
+      gpt2: "http://localhost:8000/gpt2/",
     };
 
     try {
@@ -101,8 +103,9 @@ function App() {
             <MenuItem value="gemini">Gemini</MenuItem>
             <MenuItem value="mistral">Mistral</MenuItem>
             <MenuItem value="llama">LLaMA</MenuItem>
+            <MenuItem value="gptNeox">GPT-NeoX</MenuItem>
+            <MenuItem value="gpt2">GPT-2</MenuItem>
           </Select>
-
 
           <TextField
             fullWidth
